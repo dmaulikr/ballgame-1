@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'GLSkeleton' target in the 'GLSkeleton' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+struct gameParam
+{
+	int timeLimit;
+	float maxGravity;
+	int soundEnabled;
+	int controlScheme;
+};
+#endif
